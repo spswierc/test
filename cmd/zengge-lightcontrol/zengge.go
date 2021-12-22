@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/vikstrous/zengge-lightcontrol/control"
-	"github.com/vikstrous/zengge-lightcontrol/local"
-	"github.com/vikstrous/zengge-lightcontrol/manage"
-	"github.com/vikstrous/zengge-lightcontrol/remote"
+	"github.com/spswierc/test/control"
+	"github.com/spswierc/test/local"
+	"github.com/spswierc/test/manage"
+	"github.com/spswierc/test/remote"
 )
 
 func addAll(parent *cobra.Command, children []cobra.Command) {
