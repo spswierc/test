@@ -1,4 +1,4 @@
-module github.com/spswierc/test
+module github.com/spswierc/zengge-lightcontrol
 
 require (
 	github.com/cpuguy83/go-md2man v1.0.4
